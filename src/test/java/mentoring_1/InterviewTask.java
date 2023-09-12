@@ -88,6 +88,8 @@ public class InterviewTask {
         "author": "Walter White"
     },
      */
+
+    //make change // change
     RestAssured.baseURI="https://api.breakingbadquotes.xyz";
     RestAssured.basePath="v1/quotes";
      Response response = GET("/10"); // or with out .then().log().body().extract().response() , it just printing
